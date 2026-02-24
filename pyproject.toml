@@ -1,0 +1,17 @@
+[project]
+name = "task-handler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "celery==5.3.6",
+    "django==4.2.11",
+    "djangorestframework==3.14.0",
+    "drf-yasg==1.21.7",
+    "gunicorn==21.2.0",
+    "psycopg2-binary==2.9.9",
+    "python-dotenv==1.0.1",
+    "redis==5.0.1",
+    "setuptools>=68.0.0",
+]

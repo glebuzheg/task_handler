@@ -1,0 +1,10 @@
+django==4.2.11
+djangorestframework==3.14.0
+drf-yasg==1.21.7
+setuptools>=68.0.0
+psycopg2-binary==2.9.9
+celery==5.3.6
+redis==5.0.1
+gunicorn==21.2.0
+python-dotenv==1.0.1
+whitenoise[brotli]==6.7.0
